@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "as":"https://www.w3.org/ns/activitystreams#",
+        "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+        "Reference":{
+                    "rdfs:label":"Reference",
+                    "rdfs:subClassOf":"as:Activity",
+                    "rdfs:comment":"To reference an object. E.g. by creating a link to it."
+                    }
+    }
+}

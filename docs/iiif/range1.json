@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://mp.ex.nii.ac.jp/api/curation/json/1ca86d888af2124266ad3884888559203543a0233433b06502eef77f998cf0db",
+    "@type": "sc:Range",
+    "label": "American mad lads",
+    "canvases": [
+        {
+        "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p32#xywh=504,696,3016,4464",
+        "label":"Jake Kilrain"
+        },
+        {
+        "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p78#xywh=400,619,2968,4429",
+        "label":"Mike Conley"
+        },
+        {
+        "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p132#xywh=360,483,3024,4408",
+        "label":"Mike Daly"
+        }
+    ],
+    "within":[
+        {
+        "@id": "https://digital.library.villanova.edu/Item/vudl:92879/Manifest",
+        "@type": "sc:Manifest",
+        "label": "Portrait gallery of pugilists of America and their contemporaries"
+        },
+        {
+        "@id": "https://mp.ex.nii.ac.jp/api/curation/json/fc10140abe8be7e48f25a136c89aee11c7b2343c874c170ce8010a1c6e8cb364",
+        "@type": "cr:Curation",
+        "label": "Mad lads"
+        }
+    ]
+}

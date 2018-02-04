@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://illdepence.github.io/curationactivity/iiif/range2.json",
+    "@type": "sc:Range",
+    "label": "Medieval mad lads",
+    "canvases": [
+        {
+        "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/f89c7bb8-2656-4d51-bb4a-b4e3bee936f5.json#xywh=1720,3152,318,788",
+        "label":"Mad popularity with the ladies"
+        },
+        {
+        "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/03818fac-9ba6-4382-b339-e27a0a075f31.json#xywh=986,4209,538,880",
+        "label":"Mad marine exploration"
+        },
+        {
+        "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/0ea5e42a-b298-453e-9b4b-d1d4621db9b5.json#xywh=3624,4242,1184,969",
+        "label":"Mad apathy making colored elephants angry"
+        }
+    ],
+    "within": [
+        {
+        "@id": "http://iiif.bodleian.ox.ac.uk/iiif/manifest/60834383-7146-41ab-bfe1-48ee97bc04be.json",
+        "@type": "sc:Manifest",
+        "label": "MS. Bodl. 264"
+        },
+        {
+        "@id": "https://illdepence.github.io/curationactivity/iiif/curation1.json",
+        "@type": "cr:Curation",
+        "label": "Mad lads"
+        }
+    ]
+}
