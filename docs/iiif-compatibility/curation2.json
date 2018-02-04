@@ -12,10 +12,10 @@
             "@type": "sc:Range",
             "label": "Activities",
             "canvases": [
-                "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00005#xywh=607,2554,654,646",
-                "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00027#xywh=2674,1072,992,760",
-                "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00071#xywh=302,1596,916,1256",
-                "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00191#xywh=830,1636,1000,1304"
+                "http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00005#xywh=607,2554,654,646",
+                "http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00027#xywh=2674,1072,992,760",
+                "http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00071#xywh=302,1596,916,1256",
+                "http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00191#xywh=830,1636,1000,1304"
             ],
             "within":{
                 "@id": "http://codh.rois.ac.jp/pmjt/book/200004002/manifest.json",

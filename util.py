@@ -403,8 +403,7 @@ class ActivityBuilder():
     @staticmethod
     def _build_basic(**kwargs):
         act = OrderedDict()
-        act['@context'] = ['http://iiif.io/api/presentation/3/context.json',
-                           'https://www.w3.org/ns/activitystreams']
+        act['@context'] = 'https://www.w3.org/ns/activitystreams'
         act['id'] = str(uuid.uuid4())
         for key, val in kwargs.items():
             act[key] = val
@@ -415,7 +414,9 @@ class ActivityBuilder():
     @staticmethod
     def build_reference(origin, obj, **kwargs):
         act = ActivityBuilder._build_basic(**kwargs)
-        act['@context'].append('http://moc.sirtetris.com/json-ld/curationactivity/json-ld/context.json')
+        act['@context'] = ['https://www.w3.org/ns/activitystreams',
+                           ('https://illdepence.github.io/curationactivity/jso'
+                            'n-ld/context.json')]
         act['type'] = 'Reference'
         act['origin'] = origin
         act['object'] = obj
