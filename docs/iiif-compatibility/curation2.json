@@ -4,7 +4,7 @@
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
     "@type": "cr:Curation",
-    "@id": "https://illdepence.github.io/curationactivity/iiif/curation2.json",
+    "@id": "https://illdepence.github.io/curationactivity/iiif-compatibility/curation2.json",
     "label": "Activities",
     "selections": [
         {
@@ -12,22 +12,10 @@
             "@type": "sc:Range",
             "label": "Activities",
             "canvases": [
-                {
                 "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00005#xywh=607,2554,654,646",
-                "label":"washing"
-                },
-                {
                 "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00027#xywh=2674,1072,992,760",
-                "label":"hiding"
-                },
-                {
                 "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00071#xywh=302,1596,916,1256",
-                "label":"taking a bath"
-                },
-                {
-                "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00191#xywh=830,1636,1000,1304",
-                "label":"piggyback riding"
-                }
+                "@id":"http://codh.rois.ac.jp/pmjt/iiif/200004002/canvas/001_00191#xywh=830,1636,1000,1304"
             ],
             "within":{
                 "@id": "http://codh.rois.ac.jp/pmjt/book/200004002/manifest.json",

@@ -4,7 +4,7 @@
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
     "@type": "cr:Curation",
-    "@id": "https://illdepence.github.io/curationactivity/iiif/curation1.json",
+    "@id": "https://illdepence.github.io/curationactivity/iiif-compatibility/curation1.json",
     "label": "Mad lads",
     "selections": [
         {
@@ -12,18 +12,9 @@
             "@type": "sc:Range",
             "label": "American mad lads",
             "canvases": [
-                {
                 "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p32#xywh=504,696,3016,4464",
-                "label":"Jake Kilrain"
-                },
-                {
                 "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p78#xywh=400,619,2968,4429",
-                "label":"Mike Conley"
-                },
-                {
-                "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p132#xywh=360,483,3024,4408",
-                "label":"Mike Daly"
-                }
+                "@id":"https://digital.library.villanova.edu/Item/vudl:92879/Canvas/p132#xywh=360,483,3024,4408"
             ],
             "within":{
                 "@id": "https://digital.library.villanova.edu/Item/vudl:92879/Manifest",
@@ -36,18 +27,9 @@
             "@type": "sc:Range",
             "label": "Medieval mad lads",
             "canvases": [
-                {
                 "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/f89c7bb8-2656-4d51-bb4a-b4e3bee936f5.json#xywh=1720,3152,318,788",
-                "label":"Mad popularity with the ladies"
-                },
-                {
                 "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/03818fac-9ba6-4382-b339-e27a0a075f31.json#xywh=986,4209,538,880",
-                "label":"Mad marine exploration"
-                },
-                {
-                "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/0ea5e42a-b298-453e-9b4b-d1d4621db9b5.json#xywh=3624,4242,1184,969",
-                "label":"Mad apathy making colored elephants angry"
-                }
+                "@id":"http://iiif.bodleian.ox.ac.uk/iiif/canvas/0ea5e42a-b298-453e-9b4b-d1d4621db9b5.json#xywh=3624,4242,1184,969"
             ],
             "within": {
                 "@id": "http://iiif.bodleian.ox.ac.uk/iiif/manifest/60834383-7146-41ab-bfe1-48ee97bc04be.json",
