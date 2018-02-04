@@ -32,9 +32,10 @@ Announces the creation of a Curation.
 Announces that a certain (part of a) Canvas was referenced in a Curation.
 
 In contrast to [github.com/IIIF/discovery/](https://github.com/IIIF/discovery/blob/master/source/api/harvest/0.1/activities.md#reference), uses `object` and `origin` — the object of the reference action (what is being referenced) and the reference's origin — instead of `target` and `object`.
+Furthermore, `Reference` is [defined as an Activity](https://github.com/IllDepence/curationactivity/blob/master/docs/json-ld/context.json).
 
 #### Offer
-Offers a Range to be used in the publisher's Manifest.
+Offers a Range to be used in the publisher's Manifest. The Range includes a `within` link to the Curation.
 
 ## Curation preview
 
